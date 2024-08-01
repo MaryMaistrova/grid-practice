@@ -1,0 +1,11 @@
+body {
+  font-family: "Ubuntu";
+}
+
+.first-set {
+  display: grid;
+  gap: 30px;
+  grid-template-rows: 370px 370px 370px;
+  grid-template-columns: 370px 370px 370px;
+}
+
