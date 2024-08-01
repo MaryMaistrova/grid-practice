@@ -1,6 +1,5 @@
 body {
   font-family: "Ubuntu";
-  max-width: 1170px;
 }
 
 h2 {
@@ -11,14 +10,52 @@ h2 {
 .first-set {
   display: grid;
   gap: 30px;
-  grid-template-rows: 370px 370px;
+  grid-template-rows: 370px 370px 370px;
   grid-template-columns: 370px 370px 370px;
+  justify-content: center;
+}
+.Tom {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
-div {
-  display: grid;
+.Mouchet {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
-.big {
-  grid-row: span (2);
+.Federico {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.Horner {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.Melgoza {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.Melgoza {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+img {
+  border-radius: 20px;
 }
