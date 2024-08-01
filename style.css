@@ -64,11 +64,13 @@ img {
   filter: saturate (30%);
   filter: grayscale(40%);
   filter: blur(30%);
+  filter: opacity(90%);
 }
 
 span {
   font-family: "Roboto";
   position: absolute;
+  display: none;
 }
 
 .second-set {
@@ -77,6 +79,7 @@ span {
   grid-template-columns: auto auto auto;
   gap: 30px;
   justify-content: center;
+  margin-bottom: 120px;
 }
 
 .Sean {
@@ -105,4 +108,82 @@ span {
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 4;
+}
+
+.third-set {
+  display: grid;
+  grid-template-rows: 370px 370px 370px 370px 370px;
+  grid-template-columns: 370px 370px 370px;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.Pooja {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.Dom {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.Seth {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.devn {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.Noah {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.Sincerely {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.Doyle {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.Melissa {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.Brooke {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.Clem {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
 }
