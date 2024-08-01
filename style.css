@@ -1,11 +1,24 @@
 body {
   font-family: "Ubuntu";
+  max-width: 1170px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 42px;
 }
 
 .first-set {
   display: grid;
   gap: 30px;
-  grid-template-rows: 370px 370px 370px;
+  grid-template-rows: 370px 370px;
   grid-template-columns: 370px 370px 370px;
 }
 
+div {
+  display: grid;
+}
+
+.big {
+  grid-row: span (2);
+}
