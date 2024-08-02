@@ -71,10 +71,14 @@ img:hover {
 
 }
 
+div {
+  position: relative;
+}
+
 span {
   font-family: "Roboto";
   position: absolute;
-  display: none;
+  z-index: 5;
 }
 
 .second-set {
