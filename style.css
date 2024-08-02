@@ -61,10 +61,14 @@ h2 {
 img {
   border-radius: 20px;
   filter: drop-shadow(0 0 0.75rem gray);
-  filter: saturate (30%);
-  filter: grayscale(40%);
+  filter: grayscale(80%);
   filter: blur(30%);
-  filter: opacity(90%);
+  filter: opacity(80%);
+}
+
+img:hover {
+  filter: unset;
+
 }
 
 span {
