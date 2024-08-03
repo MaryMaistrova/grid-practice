@@ -61,14 +61,12 @@ h2 {
 
 img {
   border-radius: 20px;
-  filter: drop-shadow(0 0 0.75rem gray);
-  filter: grayscale(80%);
-  filter: blur(30%);
-  filter: opacity(80%);
+  opacity: 0.8;
+  transition: 300ms;
 }
 
-img:hover {
-  filter: unset;
+div:hover>img {
+  opacity: unset;
 }
 
 div {
@@ -78,11 +76,47 @@ div {
 span {
   font-family: "Roboto";
   position: absolute;
+  bottom: 20px;
+  color: #fff;
 }
 
 section>div>span:nth-child(2) {
-
+  left: 20px;
 } 
+
+section>div>span:nth-child(3) {
+  right: 20px;
+}
+
+button {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 300ms;
+  border: none;
+  border-radius: 8px;
+}
+
+button:not(:hover) {
+  opacity: 0.5;
+}
+
+div:not(:hover)>button {
+  opacity: 0;
+}
+
+button:nth-of-type(1) {
+  left: 20px;
+  background-image: url(images/heart.svg);
+}
+
+button:nth-of-type(2) {
+  right: 20px;
+  background-image: url(images/arrow.svg);
+}
 
 .second-set {
   display: grid;
