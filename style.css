@@ -98,6 +98,7 @@ button {
   transition: 300ms;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 button:not(:hover) {
